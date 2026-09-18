@@ -468,7 +468,7 @@ def process_user_points(
 # Without email:
 #     /user-points
 #     returns all users
-# ============================================================
+# ============================================================+
 
 @app.get("/user-points")
 def get_user_points(
